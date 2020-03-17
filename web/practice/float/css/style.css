@@ -1,0 +1,23 @@
+.main {
+  line-height: 1.5;
+}
+
+.main .nav{
+  height: 60px;
+  background-color: #47464a;
+  color: #999;
+  text-align: center;
+  line-height: 60px;
+}
+
+.main .nav a{
+  margin: 0 38px;
+}
+
+.main .nav a:hover{
+  color: white;
+}
+
+.main .nav a.select{
+  color:#ef4238;
+}
