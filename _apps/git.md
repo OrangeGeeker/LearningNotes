@@ -1,5 +1,16 @@
 # git
 
+- [git](#git)
+  - [安装最新版 git](#安装最新版-git)
+    - [ubuntu](#ubuntu)
+    - [centOS](#centos)
+  - [配置](#配置)
+  - [使用](#使用)
+  - [忽略文件](#忽略文件)
+  - [git 服务器](#git-服务器)
+  - [pageant](#pageant)
+  - [gitolite](#gitolite)
+
 ## 安装最新版 git
 
 ### ubuntu
