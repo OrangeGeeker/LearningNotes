@@ -36,8 +36,11 @@ default-character-set=utf8
 socket=/var/lib/mysql/mysql.sock
 default-character-set=utf8
 ```
+
 ## 启动MySQL
+
 systemctl start mysqld
+
 ## 重置密码
 
 打印默认密码 `cat /var/log/mysqld.log | grep password`
