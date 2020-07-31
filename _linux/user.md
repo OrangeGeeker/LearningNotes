@@ -1,5 +1,10 @@
 # 用户
 
+```
+adduser xxx
+usermod -aG sudo xxx
+```
+
 ## 文件
 
 - 用户名 UID `/etc/passwd -rw-r--r--`

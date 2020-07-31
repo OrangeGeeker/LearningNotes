@@ -1,5 +1,14 @@
 # linux-package
 
+- [linux-package](#linux-package)
+  - [CentOS](#centos)
+    - [yum 切换源](#yum-切换源)
+    - [yum 常用命令](#yum-常用命令)
+    - [rpm 包直接安装](#rpm-包直接安装)
+  - [Ubuntu](#ubuntu)
+    - [apt 切换源](#apt-切换源)
+    - [常用命令](#常用命令)
+
 ## CentOS
 
 ### yum 切换源
@@ -32,7 +41,7 @@ yum remove xxx
 
 ```
 
-## rpm 包直接安装
+### rpm 包直接安装
 
 ```bash
 rpm -qa | grep [package] 相关包名列出
