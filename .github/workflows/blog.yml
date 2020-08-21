@@ -1,4 +1,4 @@
-name: Build Deploy Blog
+name: Github Blog
 on:
   push:
     branches: [ master ]
@@ -8,11 +8,11 @@ jobs:
     steps:
     - name: checkout
       uses: actions/checkout@master
-    - name: vuepress-deploy
-      uses: jenkey2011/vuepress-deploy@master
+    - name: build and deploy
+      uses: JamesIves/github-pages-deploy-action@master
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: OrangeGeeker/OrangeGeeker.github.io
         TARGET_BRANCH: master
-        BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: .vuepress/dist
+        BUILD_SCRIPT: npm install && npm run build
+        
