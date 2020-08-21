@@ -1,0 +1,79 @@
+{
+    "created_time": "2020-08-21T06:47:56Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-08-21T06:47:56Z",
+            "modified_time": "2020-08-21T06:47:56Z",
+            "name": "butter-knife.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-08-21T06:47:56Z",
+            "modified_time": "2020-08-21T06:47:56Z",
+            "name": "event-bus.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-08-21T06:47:56Z",
+            "modified_time": "2020-08-21T06:47:56Z",
+            "name": "leak-canary.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-08-21T06:47:56Z",
+            "modified_time": "2020-08-21T06:47:56Z",
+            "name": "ok-http.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-08-21T06:47:56Z",
+            "modified_time": "2020-08-21T06:47:56Z",
+            "name": "retrofit.md",
+            "tags": [
+            ]
+        }
+    ],
+    "sub_directories": [
+        {
+            "name": "animation"
+        },
+        {
+            "name": "basic"
+        },
+        {
+            "name": "custom-view"
+        },
+        {
+            "name": "glide"
+        },
+        {
+            "name": "jetpack"
+        },
+        {
+            "name": "tv"
+        },
+        {
+            "name": "view"
+        }
+    ],
+    "version": "1"
+}

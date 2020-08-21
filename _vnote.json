@@ -1,0 +1,46 @@
+{
+    "attachment_folder": "_v_attachments",
+    "created_time": "2020-08-21T06:47:56Z",
+    "files": [
+    ],
+    "image_folder": "",
+    "recycle_bin_folder": "_v_recycle_bin",
+    "sub_directories": [
+        {
+            "name": "_apps"
+        },
+        {
+            "name": "_linux"
+        },
+        {
+            "name": "android"
+        },
+        {
+            "name": "css"
+        },
+        {
+            "name": "design-pattern"
+        },
+        {
+            "name": "html"
+        },
+        {
+            "name": "java"
+        },
+        {
+            "name": "javascript"
+        },
+        {
+            "name": "jenkins"
+        },
+        {
+            "name": "python"
+        },
+        {
+            "name": "kotlin"
+        }
+    ],
+    "tags": [
+    ],
+    "version": "1"
+}
