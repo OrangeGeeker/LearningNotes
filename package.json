@@ -1,16 +1,13 @@
 {
   "name": "Glassware",
   "version": "1.0.0",
-  "description": "Test",
-  "main": "index.js",
   "dependencies": {},
   "devDependencies": {
     "vuepress": "^1.5.3"
   },
   "scripts": {
-    "start": "vuepress dev",
-    "build": "vuepress build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vuepress dev blog",
+    "build": "vuepress build blog"
   },
   "repository": {
     "type": "git",
