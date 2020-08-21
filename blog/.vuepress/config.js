@@ -1,5 +1,6 @@
 module.exports = {
   title: 'Glassware',
+  theme: "@vuepress/theme-blog",
   base: "/OrangeGeeker.github.io/",
   plugins: [
   ],
