@@ -1,24 +1,10 @@
 {
   "name": "Glassware",
-  "version": "1.0.0",
-  "dependencies": {},
-  "devDependencies": {
-    "serialize-javascript": ">=3.1.0",
-    "vuepress": "^1.5.3"
-  },
   "scripts": {
-    "dev": "vuepress dev blog",
-    "build": "vuepress build blog"
+      "dev": "vuepress dev blog",
+      "build": "vuepress build blog"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/OrangeGeeker/Glassware.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/OrangeGeeker/Glassware/issues"
-  },
-  "homepage": "https://github.com/OrangeGeeker/Glassware"
+  "devDependencies": {
+      "vuepress": "^1.5.3"
+  }
 }
