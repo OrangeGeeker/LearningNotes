@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "dependencies": {},
   "devDependencies": {
+    "serialize-javascript": ">=3.1.0",
     "vuepress": "^1.5.3"
   },
   "scripts": {
