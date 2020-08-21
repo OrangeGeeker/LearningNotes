@@ -9,10 +9,11 @@ jobs:
     - name: checkout
       uses: actions/checkout@master
     - name: build and deploy
-      uses: JamesIves/github-pages-deploy-action@master
+      uses: jenkey2011/vuepress-deploy@1.0.1
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: OrangeGeeker/OrangeGeeker.github.io
         TARGET_BRANCH: master
-        BUILD_SCRIPT: npm install && npm run build
+        BUILD_SCRIPT: yarn && yarnbuild
+        BUILD_DIR:  .vuepress/dist/
         
