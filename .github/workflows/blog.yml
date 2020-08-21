@@ -1,19 +1,18 @@
 name: Github Blog
-on:
-  push:
-    branches: [ master ]
+on: [push]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
     - name: checkout
       uses: actions/checkout@master
+      
     - name: build and deploy
       uses: jenkey2011/vuepress-deploy@1.0.1
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: OrangeGeeker/OrangeGeeker.github.io
         TARGET_BRANCH: master
-        BUILD_SCRIPT: yarn && yarnbuild
+        BUILD_SCRIPT: yarn && yarn build
         BUILD_DIR:  .vuepress/dist/
         
