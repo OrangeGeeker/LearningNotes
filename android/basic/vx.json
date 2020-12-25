@@ -3,9 +3,8 @@
     "files": [
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "01-basic.md",
             "tags": [
@@ -13,9 +12,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "02-activity.md",
             "tags": [
@@ -23,9 +21,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "03-service.md",
             "tags": [
@@ -33,9 +30,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "04-content-provider.md",
             "tags": [
@@ -43,9 +39,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "05-attr-style-theme.md",
             "tags": [
@@ -53,9 +48,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "06-storage.md",
             "tags": [
@@ -63,9 +57,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "07-sqlite.md",
             "tags": [
@@ -73,9 +66,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "08-xml-parser.md",
             "tags": [
@@ -83,9 +75,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "09-notification.md",
             "tags": [
@@ -93,9 +84,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "10-media-playback.md",
             "tags": [
@@ -103,9 +93,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "11-alarm.md",
             "tags": [
@@ -113,9 +102,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "12-lambda-expression.md",
             "tags": [
@@ -123,9 +111,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "13-http-url-connection.md",
             "tags": [
@@ -133,9 +120,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "14-intent.md",
             "tags": [
@@ -143,9 +129,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "15-camera.md",
             "tags": [
@@ -153,9 +138,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "16-gradle.md",
             "tags": [
@@ -163,9 +147,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "20-in-app-billing.md",
             "tags": [
@@ -173,9 +156,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "21-multi-screen.md",
             "tags": [
@@ -183,9 +165,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "22-message.md",
             "tags": [
@@ -193,9 +174,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "23-status-bar.md",
             "tags": [
@@ -203,9 +183,8 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "24-compatibility.md",
             "tags": [
@@ -213,16 +192,16 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "README.md",
             "tags": [
             ]
         }
     ],
-    "sub_directories": [
+    "folders": [
     ],
+    "id": "0",
     "version": "1"
 }
