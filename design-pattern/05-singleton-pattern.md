@@ -56,13 +56,15 @@ public static Singleton getInstance() {
 - 私有内部静态类，利用了加载外部类的时候内部类不会立即被加载的特性延迟加载
 - 线程安全，延迟加载，建议使用
 
-## 普通静态 field
+## 普通 static field
 
 ```java
 public class Singleton{
     private static final Singleton INSTANCE = new Singleton()
 
-    private Singleton(){}
+    private Singleton(){
+        
+    }
 
     public static Singleton getInstance(){
         return INSTANCE;
