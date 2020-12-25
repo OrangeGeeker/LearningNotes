@@ -3,46 +3,73 @@
     "files": [
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
-            "name": "01-basic.md",
+            "name": "butter-knife.md",
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
-            "name": "02-generic.md",
+            "name": "event-bus.md",
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
-            "name": "03-bit-operators.md",
+            "name": "leak-canary.md",
             "tags": [
             ]
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
-            "name": "calendar.md",
+            "name": "ok-http.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
+            "modified_time": "2020-08-21T06:47:56Z",
+            "name": "retrofit.md",
             "tags": [
             ]
         }
     ],
-    "sub_directories": [
+    "folders": [
+        {
+            "name": "animation"
+        },
+        {
+            "name": "basic"
+        },
+        {
+            "name": "custom-view"
+        },
+        {
+            "name": "glide"
+        },
+        {
+            "name": "jetpack"
+        },
+        {
+            "name": "tv"
+        },
+        {
+            "name": "view"
+        }
     ],
+    "id": "0",
     "version": "1"
 }

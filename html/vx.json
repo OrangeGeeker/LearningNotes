@@ -3,9 +3,8 @@
     "files": [
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "01-basic.md",
             "tags": [
@@ -13,16 +12,16 @@
         },
         {
             "attachment_folder": "",
-            "attachments": [
-            ],
             "created_time": "2020-08-21T06:47:56Z",
+            "id": "0",
             "modified_time": "2020-08-21T06:47:56Z",
             "name": "02-element.md",
             "tags": [
             ]
         }
     ],
-    "sub_directories": [
+    "folders": [
     ],
+    "id": "0",
     "version": "1"
 }
