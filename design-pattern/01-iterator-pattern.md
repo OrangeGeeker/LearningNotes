@@ -61,6 +61,21 @@ public class BookShelfIterator implements Iterator{
         return book;
     }
 }
+
+public class Main {
+    public static void main(String[] args) {
+        BookShelf bookShelf = new BookShelf(4);
+        bookShelf.appendBook(new Book("Around the World in 80 Days"));
+        bookShelf.appendBook(new Book("Bible"));
+        bookShelf.appendBook(new Book("Cinderella"));
+        bookShelf.appendBook(new Book("Daddy-Long-Legs"));
+        Iterator it = bookShelf.iterator();
+        while (it.hasNext()) {
+            Book book = (Book)it.next();
+            System.out.println(book.getName());
+        }
+    }
+}
 ```
 
 ## 角色
@@ -85,7 +100,9 @@ public class BookShelfIterator implements Iterator{
 
 - 不管实现如何变化，都可使用 Iterator
 
-引入 Iterator 这种复杂的设计模式，一个重要的理由是，将遍历与实现分离。在遍历时，遍历的方式不依赖于 ConcreteAggregate，这样，不论 ConcreteAggregate 是以数组还是 list 的方式实现，只要它的 iterator() 能够正确的返回接口实现类，就可以调用 hasNext() next() 进行遍历，而遍历的代码可以不用做任何修改
+引入 Iterator 这种复杂的设计模式，一个重要的理由是，将遍历与实现分离。
+
+在遍历时，遍历的方式不依赖于 ConcreteAggregate，这样，不论 ConcreteAggregate 是以数组还是 list 的方式实现，只要它的 iterator() 能够正确的返回接口实现类，就可以调用 hasNext() next() 进行遍历，而遍历的代码可以不用做任何修改
 
 - 抽象类/接口
 
