@@ -1,3 +1,3 @@
 # Glassware
 
-Notebook Learning note
+Notebook Learning notebook
