@@ -59,6 +59,16 @@ git config --global user.name "xxx"
 git config --global user.email "xxx"
 ```
 
+```bash
+gpg --full-generate-key
+gpg --armor --export {key_id}
+gpg --list-keys
+git config --global user.signingkey {key_id}
+git config --global gpg.program "C:/Program Files (x86)/GnuPG/bin/gpg.exe"
+git config --global commit.gpgsign true
+git commit -S -m "..."
+```
+
 ## 使用
 
 ```bash
