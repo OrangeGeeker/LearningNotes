@@ -2,4 +2,6 @@
 
 本站记录了技术学习笔记以及个人分享文章。
 
-[kotlin](kotlin)
+[Kotlin](kotlin)
+
+[Android](android)
