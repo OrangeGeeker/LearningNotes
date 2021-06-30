@@ -26,6 +26,6 @@ jobs:
       - name: Deploy to Tencent CloudBase
         uses: TencentCloudBase/cloudbase-action@v2
         with:
-          secretId: ${{secrets.SECRET_ID}}
-          secretKey: ${{secrets.SECRET_KEY}}
-          envId: ${{secrets.ENV_ID}}
+          secretId: ${{ secrets.SECRET_ID }}
+          secretKey: ${{ secrets.SECRET_KEY }}
+          envId: ${{ secrets.ENV_ID }}
