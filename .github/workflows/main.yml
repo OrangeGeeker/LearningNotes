@@ -22,8 +22,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
         uses: actions/checkout@v2
-      - name: log
-        run: echo ${{ secrets.SECRET_ID }}
+      - name: log test
+        run: echo hello world
       - name: Deploy to Tencent CloudBase
         uses: TencentCloudBase/cloudbase-action@v2
         with:
