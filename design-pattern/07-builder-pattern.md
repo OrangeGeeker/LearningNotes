@@ -107,6 +107,43 @@ public class Main {
 }
 ```
 
+### Kotlin
+
+```kotlin
+class pen {
+    var color: String = "white"
+    var width: Float = 1.0F
+    var round: Boolean = false
+    fun write(){
+        println("color:${color},width:${width},round:${round}")
+    }
+}
+
+
+fun main(){
+    val pen = Pen()
+    with(pen, {
+        color = "red"
+        width = 2F
+        round = true
+    })
+    pen.write()
+}
+```
+
+第二种方式
+
+```kotlin
+val pen = Pen()
+pen.apply{
+    color = "gray"
+    width = 6f
+    round = true
+    write()
+}
+
+```
+
 ## 角色
 
 - Builder

@@ -2,6 +2,8 @@
 
 ## 装饰边框与装饰物的一致性
 
+### Java
+
 ```java
 public abstract class Display {
     public abstract int getColumns();               // 获取横向字符数
@@ -87,6 +89,31 @@ public class FullBorder extends Border {
 }
 ```
 
+### Kotlin
+
+```kotlin
+fun Panda.bamboo(decorator: () -> Unit) {
+    eat()
+    println("可以吃竹子")
+    decorator()
+}
+
+fun Panda.carrot(decorator: () -> Unit) {
+    println("可以吃胡罗卜")
+    decorator()
+}
+
+fun main() {
+    Panda().run {
+        bamboo {
+            carrot {
+                
+            }
+        }
+    }
+}
+```
+
 ## 角色
 
 - Component
@@ -123,7 +150,7 @@ Decorator 模式使用了委托
 
 - 只需要一些装饰物即可添加许多功能
 
-Decorator 可以将各种功能自由组合成心的对象
+Decorator 可以将各种功能自由组合成新的对象
 
 - java.io 包 javax.swing.border 都使用了Decorator 模式
 
