@@ -2,8 +2,10 @@
 
 本站记录了技术学习笔记以及个人分享文章。
 
-[Kotlin](kotlin/)
+### [Java](java/)
 
-[Android](android/)
+### [Kotlin](kotlin/)
 
-[Hilt](hilt/)
+### [Android](android/)
+
+### [Hilt](hilt/)
