@@ -8,4 +8,6 @@
 
 ### [Android](android/)
 
+### [Flutter](flutter/)
+
 ### [Hilt](hilt/)
