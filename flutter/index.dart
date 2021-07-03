@@ -1,13 +1,5 @@
-main() {
-  String str = '1';
-  String str2 = "2";
-
-  String str3 = '''this is test
-str
-str
-''';
-
-  print(str);
-  print(str2);
-  print(str3);
+void main() {
+  String? text = null;
+  assert(text != null, 'text canot be null');
+  print('hello');
 }
