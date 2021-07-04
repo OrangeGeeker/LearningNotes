@@ -50,7 +50,7 @@ dropdb mydb
 
 ## psql 命令
 
-```bash
+```
 \du 所有用户
 \l 所有db
 \q
