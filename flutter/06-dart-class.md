@@ -28,3 +28,33 @@ double distance = p.distanceTo(Point(4, 4));
 // If p is non-null, set a variable equal to its y value.
 var a = p?.y;
 ```
+
+## 使用构造函数
+
+构造函数的命名方式可以为`类名`或`类名.标识符`。
+
+关键词 new 可以不写。
+
+```dart
+var p1 = Point(2, 2);
+var p2 = Point.fromJson({'x': 1, 'y': 2});
+
+var p3 = new Point(2, 2);
+var p4 = new Point.fromJson({'x': 1, 'y': 2});
+```
+
+常量构造函数，两个使用相同构造函数相同参数值构造的编译时常量是同一个对象。
+
+```dart
+var a = const ImmutablePoint(2, 2);
+var b = const ImmutablePoint(1, 1);
+print(identical(a, b));
+```
+
+## 获取对象类型
+
+Object 对象的 runtimeType 属性
+
+```dart
+print('The type of a is ${a.runtimeType}');
+```
